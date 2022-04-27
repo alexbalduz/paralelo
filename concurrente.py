@@ -20,8 +20,8 @@ if __name__ == '__main__':
     for row in data:
         print(row)
 
+scrape ("a.com") # hecho por el proceso 1
+scrape ("b.com") # hecho por el proceso 2
+scrape ("c.com") # hecho por el proceso 3
+scrape ("d.com") # hecho por proceso 4
 
-'''pool.close()
-print()
-for row in data:
-    print(row)'''
